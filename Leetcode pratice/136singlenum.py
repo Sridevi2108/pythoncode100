@@ -1,6 +1,5 @@
 nums=[1]
 var=[]
-
 for i in range(len(nums)):
     if nums[i] not in var:
         var.append(nums[i])
