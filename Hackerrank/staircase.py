@@ -1,9 +1,8 @@
-n1='program'
-n=len(n1)
+n=4
 for i in range(n):
     for j in range(n):
-        if i==j or i+j==n-1:
-            print("*",end=" ")
+        if i+j>=n-1:
+            print("#",end=" ")
         else:
             print(" ",end=" ")
     print()
